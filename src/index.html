@@ -21,14 +21,19 @@
     />
 
     <link rel="stylesheet" href="styles/main.scss" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header class="hero">
       <div class="container">
         <h1 class="hero__title">B-day da Mila</h1>
-        <p class="hero__text">Os 30 anos da Camila chega em 30d 12h 15m 20s</p>
+        <p class="hero__text">
+          Os 30 anos da Camila chega em
+          <br />
+          <span id="contador"></span>
+        </p>
         <div class="infos-bar">
-          <ul class="infor-bar__infos">
+          <ul class="infos-bar__infos">
             <li class="infos-bar__infos__item">
               <b>Local</b>
               Rua da Mila - Bairro da Mila - São Paulo/SP
@@ -47,6 +52,77 @@
       </div>
     </header>
 
+    <section class="event event--text1">
+      <div class="container" data-aos="fade-right">
+        <div class="event__details">
+          <h2 class="event__details__title">Chegou os 30 anos da Mila!</h2>
+          <p class="event__details__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            deleniti necessitatibus sit fuga impedit maxime dolores voluptatum
+            explicabo accusantium tenetur, consectetur itaque nostrum vel qui
+            aliquam eligendi, quod iste a.
+          </p>
+          <img
+            class="event__image"
+            src="./images/bday.jpg"
+            alt="Happy Birthday"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="event event--text2 event--image-left">
+      <div class="container" data-aos="fade-left">
+        <div class="event__details">
+          <h2 class="event__details__title">Você está convidado</h2>
+          <p class="event__details__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            deleniti necessitatibus sit fuga impedit maxime dolores voluptatum
+            explicabo accusantium tenetur, consectetur itaque nostrum vel qui
+            aliquam eligendi, quod iste a.
+          </p>
+          <img
+            class="event__image"
+            src="./images/presentes.jpg"
+            alt="presentes"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="event event--text3">
+      <div class="container" data-aos="fade-right">
+        <div class="event__details">
+          <h2 class="event__details__title">
+            Vamos comemorar em grande estilo
+          </h2>
+          <p class="event__details__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            deleniti necessitatibus sit fuga impedit maxime dolores voluptatum
+            explicabo accusantium tenetur, consectetur itaque nostrum vel qui
+            aliquam eligendi, quod iste a.
+          </p>
+          <img class="event__image" src="./images/bolo.jpg" alt="bolo" />
+        </div>
+      </div>
+    </section>
+
+    <section class="event event--text4 event--image-left">
+      <div class="container" data-aos="fade-left">
+        <div class="event__details">
+          <h2 class="event__details__title">Se prepare</h2>
+          <p class="event__details__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            deleniti necessitatibus sit fuga impedit maxime dolores voluptatum
+            explicabo accusantium tenetur, consectetur itaque nostrum vel qui
+            aliquam eligendi, quod iste a.
+          </p>
+          <img class="event__image" src="./images/party.jpg" alt="festa" />
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
   </body>
 </html>
